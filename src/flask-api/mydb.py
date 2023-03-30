@@ -4,8 +4,8 @@ import json
 # Connexion à la base de données
 mydb = mysql.connector.connect(
   host="localhost",
-  user="votre_nom_d'utilisateur",
-  password="votre_mot_de_passe",
+  user="identity",
+  password="passwordDbUniv01",
   database="identity"
 )
 
