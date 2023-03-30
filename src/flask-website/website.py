@@ -6,7 +6,7 @@ app = Flask(__name__)
 def start(): 
     return render_template('start.html')
 
-@app.route("/")
+@app.route("/index.html")
 def index():
-    return render_template('index.hmtl')
+    return render_template("index.html")
 
